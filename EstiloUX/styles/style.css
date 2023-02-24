@@ -10,8 +10,8 @@ font-family: 'Titillium Web', sans-serif; */
 body{
     font-family: 'Quicksand', sans-serif;
     color: gray;
-   
-
+    margin: 0px;
+  
 }
 
 
@@ -21,13 +21,38 @@ header{
 
 header .grid-layout{
     width: 90%;
-    background-color: yellowgreen;
-    margin: 0 auto;
+   
+}
+
+header .header-flex{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+
+
+
+header nav {
+width: 300px;
+display: flex;
+justify-content: space-between;
+align-items: center;
+
+
+}
+
+header nav a {
+    color: white;
+    text-decoration: none;
 }
 
 header h1{
     color: white;
     font-family: 'Titillium Web', sans-serif;
+    width: 300px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
 }
 
 header h1 #logoux {
@@ -38,3 +63,8 @@ header h1 #logoux {
     font-size: 30px;
 }
 
+img {
+
+width: 800px;
+height: 400px;
+}
