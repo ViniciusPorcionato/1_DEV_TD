@@ -11,9 +11,13 @@
 
 <body>
 
+    
+<!-- Cabeçalho -->
     <header>
         <div class="grid-layout header-flex">
-            <h1>Estilo<span id="logoux">Ux</span></h1>
+            <!-- Logo -->
+            <h1>estilo<span id="logoux">ux</span></h1>
+            <!-- Links para navegação -->
             <nav>
                 <a href="">Home</a>
                 <a href="">Sobre</a>
@@ -23,11 +27,17 @@
 
     </header>
 
-    <main>
-        <section>
+    <main class="background-color" >
 
-            <img src="images/lapis-de-cor.png" alt="lápis de cor">
+        <div class="grid-layout colunas-flex">
 
+        
+        <section class="coluna1">
+            <!-- Imagem da página -->
+            <img id="lapis" src="images/lapis-de-cor.png" alt="lápis de cor" >
+
+            <!-- Corpo do texto -->
+            <!-- Título do parágrafo -->
             <h2>Cores com harmonia</h2>
 
             <h3>Entenda como fazer combinação de cores que fazem sentido pra sua identidade visual</h3>
@@ -44,7 +54,8 @@
 
         </section>
 
-        <aside>
+
+        <aside class="coluna2">
             <article>
                 <h3>Buscar</h3>
             </article>
@@ -59,11 +70,14 @@
 
         </aside>
 
+    </div>
     </main>
 
-
+<!-- Rodapé -->
     <footer>
+        <div class="grid-layout" >
         <p>Estilo UX 2023 - Todos os direitos reservados</p>
+        </div>
     </footer>
 
 </body>
