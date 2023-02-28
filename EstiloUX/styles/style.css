@@ -133,5 +133,7 @@ main .coluna2 article{
 footer{
     background-color: #676767;
     color: white;
-    
+   padding-top: 20px;
+   padding-bottom: 20px;
+
 }
