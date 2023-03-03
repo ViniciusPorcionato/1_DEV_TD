@@ -5,7 +5,10 @@
     src: url(../assets/fonts/Bebas_Neue/BebasNeue-Regular.ttf);
 }
 
-
+@font-face {
+    font-family: Open-Sans;
+    src: url(../assets/fonts/Open_Sans/OpenSans-VariableFont_wdth\,wght.ttf);
+}
 /* Reset de propriedade */
 
 * {
@@ -82,7 +85,7 @@ header a {
 
 /* desenvolvimento de sistemas 2023 */
 
-#title-h1 {
+#section1-h1 {
     font-family: Bebas Neue, cursive;
     font-size: 96px;
     color: white;
@@ -95,7 +98,7 @@ header a {
 
 /* senai informática */
 
-#title-h2 {
+#section1-h2 {
     font-family: 'Courier New', Courier, monospace;
     font-size: 53;
     text-transform: uppercase;
@@ -121,6 +124,13 @@ hr {
 
 /* section 2 */
 
+#box-content{
+display: flex;
+flex-direction: column;
+align-items: center;
+justify-content: center;
+}
+
 #section2{
     height: 800px;
     width: 100%;
@@ -135,3 +145,38 @@ hr {
     height: 617px;
     width: 1200px;
 }
+
+/* sobre os projetos */
+#section2-h1{
+    font-family: BebasNeue-Regular, cursive ;
+    font-size: 64px;
+    color: #F9003D;
+    height: 77px;
+    width: 384px;
+}
+
+/* Participantes */
+#section2-h2{
+    font-family: 'Courier New', Courier, monospace;
+    color: white;
+    font-size: 24px;
+    font-weight: bold;
+}
+/* mais de 80 alunos organizados em 16 grupos */
+#section2-h3{
+    font-family: BebasNeue-Regular, cursive ;
+    font-size: 64px;
+    color: #FFAF00;
+    height: 154px;
+    width: 557px;
+}
+
+#section2-p{
+    font-family: Open-Sans;
+    font-size: 18px;
+    color: white;
+    width: 592px;
+    height: 252px;
+    font-weight: regular;
+}
+
