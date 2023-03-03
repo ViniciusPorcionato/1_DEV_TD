@@ -73,7 +73,7 @@ header a {
 
 /* imagem banner */
 
-main section {
+#section1 {
     width: 100%;
     height: 740px;
     background-image: url(../assets/images/imagem-fundo-banner.png);
@@ -120,3 +120,18 @@ hr {
 
 
 /* section 2 */
+
+#section2{
+    height: 800px;
+    width: 100%;
+    background-color: #080324;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    
+}
+
+#box-content{
+    height: 617px;
+    width: 1200px;
+}
