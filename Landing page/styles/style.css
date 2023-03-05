@@ -71,7 +71,7 @@ header a {
 /********MAIN********/
 
 
-/* section */
+/* section 1 */
 
 
 /* imagem banner */
@@ -124,12 +124,26 @@ hr {
 
 /* section 2 */
 
+/* caixa com os conteúdos */
 #box-content{
 display: flex;
 flex-direction: column;
-align-items: center;
-justify-content: center;
+align-items: start;
+justify-content: start;
+display: inline-block;
+padding-left: 117px;
 }
+
+#box-title-img{
+display: flex;
+flex-direction: column;
+align-items: start;
+justify-content: start;
+display: inline-block;
+}
+
+
+
 
 #section2{
     height: 800px;
@@ -141,10 +155,7 @@ justify-content: center;
     
 }
 
-#box-content{
-    height: 617px;
-    width: 1200px;
-}
+
 
 /* sobre os projetos */
 #section2-h1{
@@ -153,6 +164,7 @@ justify-content: center;
     color: #F9003D;
     height: 77px;
     width: 384px;
+    margin-bottom: 64px;
 }
 
 /* Participantes */
@@ -161,6 +173,7 @@ justify-content: center;
     color: white;
     font-size: 24px;
     font-weight: bold;
+   
 }
 /* mais de 80 alunos organizados em 16 grupos */
 #section2-h3{
@@ -171,6 +184,7 @@ justify-content: center;
     width: 557px;
 }
 
+/* parágrafo lorem */
 #section2-p{
     font-family: Open-Sans;
     font-size: 18px;
