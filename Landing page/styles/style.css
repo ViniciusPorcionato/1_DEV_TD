@@ -100,10 +100,10 @@ header a {
 
 #section1-h2 {
     font-family: 'Courier New', Courier, monospace;
-    font-size: 53;
+    font-size: 51px;
     text-transform: uppercase;
     color: #F9003D;
-    width: 545px;
+    width: 544px;
     margin-top: 45px;
     margin-bottom: 45px;
     letter-spacing: 1px;
@@ -137,13 +137,14 @@ padding-left: 117px;
 #box-title-img{
 display: flex;
 flex-direction: column;
-align-items: start;
-justify-content: start;
+align-items: end;
+justify-content: end;
 display: inline-block;
+
 }
 
 
-
+/* section 2 caixa */
 
 #section2{
     height: 800px;
@@ -152,6 +153,7 @@ display: inline-block;
     display: flex;
     justify-content: center;
     align-items: center;
+   
     
 }
 
@@ -173,6 +175,8 @@ display: inline-block;
     color: white;
     font-size: 24px;
     font-weight: bold;
+    text-transform: uppercase;
+    
    
 }
 /* mais de 80 alunos organizados em 16 grupos */
@@ -182,6 +186,8 @@ display: inline-block;
     color: #FFAF00;
     height: 154px;
     width: 557px;
+    margin-top: 28px;
+    
 }
 
 /* parágrafo lorem */
@@ -192,5 +198,64 @@ display: inline-block;
     width: 592px;
     height: 252px;
     font-weight: regular;
+    margin-top: 28px;
 }
+
+img reunião{
+    width: 491px ;
+    height: 476px;
+}
+
+/********section 3*********/
+
+#section3{
+
+    width: 100%;
+    height: 200px;
+    background-image: url(../assets/images/imagem-fundo-info.png);
+    display: flex;
+    align-items: center;
+
+}
+
+.h3-section3{
+    font-family: 'Courier New', Courier, monospace;
+    font-size: 24px;
+    color: white;
+    font-weight: bold;
+    text-transform: uppercase;
+
+}
+
+.p-section3{
+
+    
+    color: #A259F7;
+    text-transform: uppercase;
+    font-family: 'Courier New', Courier, monospace;
+    font-weight: bold;
+    font-size: 28px;
+}
+
+.box-information{
+    width: 289px;
+    height: 100px;
+    border: 1px solid #A259F7;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+#section3 div{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+
+#section3 article{
+    display: flex;
+    flex-direction: column;
+}
+
+
 
