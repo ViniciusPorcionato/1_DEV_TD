@@ -31,6 +31,22 @@
 }
 
 
+/* layout-grid */
+
+.layout-grid{
+
+    width: 90%;
+    margin: 0 auto;
+    height: 100%;
+}
+
+.alinhamento-between-center{
+
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+
 /* Reset CSS */
 
 *{
@@ -42,19 +58,65 @@
 
 
 
-
-
-
 body{
     color: white;
 }
 
+
+
+
+
+
+
+
+
+/* MOBLILE FIRST (<=767px)*/
+
+/* HEADER */
+
 header{
     background-color: #1B1426;
+    height: 60px;
+
 }
 
+header .header-top{
+
+    display: none;
+}
+
+header .header-bottom{
+
+    height: 60px;
+}
+
+header .logo{
+
+    width: 86px;
+    height: 25px;
+
+}
+
+header nav{
+
+    position: fixed;
+    left: 0px;
+    top: 60px;
+    width: 80vw;
+    height: 100vw;
+    background-color: gray;
 
 
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    
+    
 
+}
 
-/* mobile first */
+header .menu-usuarios{
+
+    display: none;
+}
+
