@@ -30,6 +30,17 @@
     
 }
 
+/* Classes genéricas */
+
+.mostrar-menu{
+
+    left: 0 !important;
+}
+
+.mostrar-menu-usuarios{
+
+    right: 0 !important;
+}
 
 /* layout-grid */
 
@@ -72,9 +83,13 @@ body{
 
 /* MOBLILE FIRST (<=767px)*/
 
-/* HEADER */
+/*********HEADER*******/
 
 header{
+
+    position: fixed;
+    width: 100vw;
+    z-index: 100;
     background-color: #1B1426;
     height: 60px;
 
@@ -90,6 +105,7 @@ header .header-bottom{
     height: 60px;
 }
 
+/* logo */
 header .logo{
 
     width: 86px;
@@ -97,12 +113,13 @@ header .logo{
 
 }
 
-/* box com os links */
+/* box com os links nav br */
 header .header-bottom nav{
 
     position: fixed;
-    left: 0px;
+    left: -80vw;
     top: 60px;
+    z-index: 101;
     display: flex;
     flex-direction: column;
     padding-bottom: 20px;
@@ -117,11 +134,15 @@ header .header-bottom nav{
 
     /* adicionar o efeito de borrado */
     backdrop-filter: blur(45px);
+
+
+    transition: left 0.4s;
     
     
 
 }
 
+/* config dos conteúdos dentro da nav bar */
 header .header-bottom nav > a{
 
     display: flex;
@@ -163,17 +184,19 @@ header .header-bottom nav .midias-sociais{
 header .menu-usuarios{
 
     position: fixed;
-    right: 0;
+    right: -20vw;
     top: 60px;
     display: flex;
     flex-direction: column;
     justify-content: space-between;
     align-items: center;
-    width: 10vw;
-    padding-top: 10px;
-    padding-bottom: 10px;
-    border: 1px solid red;
+    width: 20vw;
+    padding: 15px;
+    background-image: linear-gradient(to right bottom, rgba(27, 20, 38, 0.7), rgba(27, 20, 38, 0.4));
+    backdrop-filter: blur(10px);
+    gap: 20px;
 
+    transition: right 0.4s;
 }
 
 
@@ -181,4 +204,35 @@ header .menu-usuarios{
 
 
 /***************MAIN************/
+
+main{
+
+padding-top: 60px;
+
+}
+
+main .banner{
+
+    background-image: url("../assets/img/banner-mobile-valorant.png");
+    height: calc(100vh - 60px);
+
+    display: flex;
+    flex-direction: column;
+    justify-content: space-around;
+    align-items: center;
+
+    border: 3px solid red;
+}
+
+.banner h1{
+
+    font-family: Titillium_Web;
+    font-weight: bolder;
+    font-size: 40px;
+    text-transform: capitalize;
+    text-shadow: #FD4255 1px 0 10px;
+    color: white;
+}
+
+
 
