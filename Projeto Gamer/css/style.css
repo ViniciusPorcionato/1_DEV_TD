@@ -13,8 +13,7 @@
 @font-face {
     font-family: Titillium_Web;
     src: url(../assets/fonts/Titillium_Web/TitilliumWeb-Black.ttf);
-    font-weight: bolder;
-
+    font-weight: 900;
 }
 
 @font-face {
@@ -29,6 +28,7 @@
     src: url(../assets/fonts/Titillium_Web/TitilliumWeb-Regular.ttf);
     
 }
+
 
 /* Classes genéricas */
 
@@ -211,28 +211,198 @@ padding-top: 60px;
 
 }
 
+/* banner */
 main .banner{
 
     background-image: url("../assets/img/banner-mobile-valorant.png");
     height: calc(100vh - 60px);
+    width: 100%;
+    background-size: contain;
+    background-position: center;
 
     display: flex;
     flex-direction: column;
-    justify-content: space-around;
+    justify-content: space-between;
     align-items: center;
 
-    border: 3px solid red;
 }
 
 .banner h1{
 
     font-family: Titillium_Web;
-    font-weight: bolder;
+    font-weight: 900;
     font-size: 40px;
     text-transform: capitalize;
     text-shadow: #FD4255 1px 0 10px;
     color: white;
+
+    margin-top: 10px;
+
+}
+
+.banner button{
+
+width: 171px;
+height: 40px;
+background-color: #F9AA01;
+color: black;
+
+font-family: Titillium_Web;
+font-weight: bold;
+font-size: 24px;
+border-radius: 8px;
+border: none;
+
+margin-bottom: 88px;
+
 }
 
 
+/* seção curiosidades */
+.section-curiosidades-flex{
+
+display: flex;
+justify-content: space-evenly;
+flex-direction: column;
+align-items: center;
+
+}
+
+.section-curiosidades{
+
+    width: 100%;
+    height: 590px;
+    background-color: #1B1426;
+}
+
+.card-fifa{
+
+    background-image: url(../assets/img/Card-FIFA.png);
+    width: 335.79px;
+    height: 189px;
+
+    display: flex;
+    flex-direction: column;
+    justify-content: end;
+    align-items: center;
+
+}
+
+.box-transparente{
+
+height: 50px;
+width: 335px;
+background-image: linear-gradient(to right bottom rgba(239, 239, 239, 0.6), rgba(239, 239, 239, 0.1));
+backdrop-filter: blur(4px);
+border-radius: 8px;
+
+display: flex;
+justify-content: start;
+align-items: center;
+
+border: 1px solid rgba(255, 255, 255, 0.6);
+
+}
+
+.box-paralelograma{
+
+    width: 200px;
+    height: 40px;
+    background-color: #F9AA01;
+    transform: skew(-40deg);
+    margin-left: 30px;
+
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.box-paralelograma-p{
+
+    transform: skew(40deg);
+    font-family: Titillium_Web;
+    font-weight: bold;
+    color: black ;
+    font-size: 16px;
+
+    text-transform: capitalize;
+
+}
+
+.card-cs{
+
+    background-image: url(../assets/img/Card-CS\ GO.png);
+    width: 335.79px;
+    height: 189px;
+
+    display: flex;
+    flex-direction: column;
+    justify-content: end;
+    align-items: center;
+
+}
+
+/* entre para o time gamer */
+
+.section-entre-para-o-time{
+
+    width: 100%;
+    height: 1535px;
+    background-color: #F9AA01;
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+/* Tablets >=768px */
+
+/* Desktop >=1200px */
 
