@@ -292,7 +292,7 @@ align-items: center;
 
 height: 50px;
 width: 335px;
-background-image: linear-gradient(to right bottom rgba(239, 239, 239, 0.6), rgba(239, 239, 239, 0.1));
+background-image: linear-gradient(to right bottom, rgba(239, 239, 239, 0.6), rgba(239, 239, 239, 0.1));
 backdrop-filter: blur(4px);
 border-radius: 8px;
 
@@ -349,13 +349,151 @@ border: 1px solid rgba(255, 255, 255, 0.6);
     width: 100%;
     height: 1535px;
     background-color: #F9AA01;
+
+    display: flex;
+    justify-content: space-evenly;
+    align-items: center;
+    flex-direction: column;
+    padding-top: 90px;
+
+
+}
+
+.section-entre-para-o-time h1{
+
+    font-family: Titillium_Web;
+    font-weight: 900;
+    font-size: 18px;
+    text-transform: uppercase;
+    color: #1B1426;
+    letter-spacing: 2px;
+}
+
+.section-entre-para-o-time hr {
+
+    width: 204px;
+    margin-top: 40px;
+
+}
+
+/* section killjoy */
+.imagem-killjoy{
+
+position: relative;
+background-image: url(../assets/img/kiljoy.png);
+width: 314px;
+height: 511px;
+margin-top: 85px;
+
+}
+
+.box-20-jogos-diferentes{
+
+
+    position: absolute;
+    right: 0;
+    top: 135px;
+    width: 231px;
+    height: 300px;
+    background-image: linear-gradient(to right bottom, rgba(122, 49, 236, 0.2), rgba(47, 7, 109, 0.83));
+    backdrop-filter: blur(15px);
+    border-radius: 8px;
+
+    display: flex;
+    flex-direction: column;
+    justify-content: flex-start;
+    align-items: center;
+
+}
+
+.icon-controle{
+width: 97px;
+height: 97px;
+margin-bottom: 20px;
+margin-top: 20px;
+
+}
+
+.box-20-jogos-diferentes h2{
+
+    font-family: Titillium_Web;
+    font-weight: 900;
+    font-size: 18px;
+    text-transform: uppercase;
+    letter-spacing: 1px;
+
+}
+
+.box-20-jogos-diferentes p{
+
+    margin-top: 19px;
+    width: 176px;
+    height: 64px;
+    font-family: Quicksand;
+    font-size: 13px;
+    font-style: normal;
+
 }
 
 
+/* section 2 lol */
+
+.imagem-lol{
+
+    position: relative;
+    background-image: url(../assets/img/legue\ of\ legends.png);
+    width: 314px;
+    height: 511px;
+    margin-top: 85px;
+
+}
+
+.box-53-professores{
 
 
+    position: absolute;
+    left: 0;
+    top: 100px;
+    width: 231px;
+    height: 300px;
+    background-image: linear-gradient(to right bottom, rgba(122, 49, 236, 0.2), rgba(47, 7, 109, 0.83));
+    backdrop-filter: blur(15px);
+    border-radius: 8px;
 
+    display: flex;
+    flex-direction: column;
+    justify-content: flex-start;
+    align-items: center;
 
+}
+
+.icon-jogador{
+    width: 97px;
+    height: 97px;
+    margin-bottom: 20px;
+    margin-top: 20px;
+}
+
+.box-53-professores h2{
+
+    font-family: Titillium_Web;
+    font-weight: 900;
+    font-size: 18px;
+    text-transform: uppercase;
+    letter-spacing: 1.5px;
+
+}
+
+.box-53-professores p {
+
+    margin-top: 19px;
+    width: 162px;
+    height: 112px;
+    font-family: Quicksand;
+    font-size: 13px;
+    font-style: normal;
+
+}
 
 
 
