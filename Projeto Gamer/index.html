@@ -1,4 +1,3 @@
-<!DOCTYPE html>
 <html lang="pr-BR">
 
 <head>
@@ -15,7 +14,7 @@
 
         <div class="header-top">
 
-            <div class="layout-grid">
+            <div class="layout-grid alinhamento-between-center">
 
                 <div class="contatos">
 
@@ -48,7 +47,7 @@
             <div class="layout-grid alinhamento-between-center">
 
                 <!-- Menu hamburger. Visivel apenas no smartphone -->
-                <img onclick="mostrarMenu()" src="./assets/icons/icon-hamburger-menu.svg"
+                <img class="menu-hamburger" onclick="mostrarMenu()" src="./assets/icons/icon-hamburger-menu.svg"
                     alt="icone de barras. Abre e fecha o menu principal, no celular">
 
                 <img class="logo" src="./assets/img/logotipo-gamer.svg"
@@ -86,7 +85,7 @@
                 </nav>
 
                 <!-- Menu points, visível apenas no smartphone -->
-                <img onclick="mostrarMenuUsuarios()" src="./assets/icons/icon-points.svg"
+                <img class="menu-pontinhos" onclick="mostrarMenuUsuarios()" src="./assets/icons/icon-points.svg"
                     alt="icone de três pontos. Abre e fecha o menu usuários, no celular">
 
                 <div id="menu-usuarios" class="menu-usuarios">
@@ -112,58 +111,144 @@
     <main>
 
 
-            <section class="banner">
+        <section class="banner">
 
-                <h1>liga gamer</h1>
-                <button>
-                    Sobre
-                </button>
+            <h1>liga gamer</h1>
+            <button>
+                Sobre
+            </button>
 
-            </section>
+        </section>
 
-            <section class="section-curiosidades section-curiosidades-flex layout-grid">
+        <section class="section-curiosidades section-curiosidades-flex layout-grid">
 
-                <article class="card-fifa">
-                    <div class="box-transparente">
-                        <div class="box-paralelograma">
-                            <p class="box-paralelograma-p" >mais popular</p>
-                        </div>
+            <article class="card-fifa">
+                <div class="box-transparente">
+                    <div class="box-paralelograma">
+                        <p class="box-paralelograma-p">mais popular</p>
                     </div>
-                </article>
+                </div>
+            </article>
 
-                <article class="card-cs">
-                    <div class="box-transparente">
-                        <div class="box-paralelograma">
-                            <p class="box-paralelograma-p" >último jogo </p>
-                        </div>
+            <article class="card-cs">
+                <div class="box-transparente">
+                    <div class="box-paralelograma">
+                        <p class="box-paralelograma-p">último jogo </p>
                     </div>
-                </article>
+                </div>
+            </article>
 
-            </section>
+        </section>
 
-            <!-- section entre para o time -->
-            <section class="section-entre-para-o-time">
-                <h1>entre para o time progamer</h1>
+        <!-- section entre para o time -->
+        <section class="section-entre-para-o-time">
+            <h1>entre para o time progamer</h1>
+            <hr>
+
+            <!-- article com a imagem e o box -->
+            <article class="imagem-killjoy">
+                <div class="box-20-jogos-diferentes">
+                    <img class="icon-controle" src="./assets/icons/icon-controle.svg" alt="icone controle de videogame">
+                    <h2>20 jogos diferentes</h2>
+                    <p class="20-jogos-diferentes-p">São mais de 20 jogos em 2 plataformas dispóniveis para que você
+                        possa aprender melhores técnicas.</p>
+                </div>
+            </article>
+
+            <article class="imagem-lol">
+                <div class="box-53-professores">
+                    <img class="icon-jogador" src="./assets/icons/icon-gamer-controle.svg"
+                        alt="icone controle de um jogador gamer com um controle">
+                    <h2>53 professores</h2>
+                    <p class="53-professores-p">Temos 53 Proplayers no nosso time para ensinar todas as es- tratégias,
+                        você vai aprender do básico ao avançado.
+                        Tempo de treinamento, descanso, equipamentos. .</p>
+                </div>
+            </article>
+
+        </section>
+
+        <section class="noticias">
+            <article class="noticias-flex">
+                <h1>notícias</h1>
                 <hr>
-<!-- article com a imagem e o box -->
-                <article class="imagem-killjoy">
-                    <div class="box-20-jogos-diferentes">
-                        <img class="icon-controle" src="./assets/icons/icon-controle.svg" alt="icone controle de videogame">
-                        <h2>20 jogos diferentes</h2>
-                        <p class="20-jogos-diferentes-p">São mais de 20 jogos em 2 plataformas dispóniveis para que você possa aprender melhores técnicas.</p>
-                    </div>
-                </article>
 
-                <article class="imagem-lol">
-                    <div class="box-53-professores">
-                        <img class="icon-jogador" src="./assets/icons/icon-gamer-controle.svg" alt="icone controle de um jogador gamer com um controle">
-                        <h2>53 professores</h2>
-                        <p class="53-professores-p">Temos 53 Proplayers no nosso time para ensinar todas as es- tratégias, você vai aprender do básico ao avançado.
-                            Tempo de treinamento, descanso, equipamentos. .</p>
-                    </div>
-                </article>
+                <!-- div com todas as card box -->
 
-            </section>
+                <div class="box-cards-noticias">
+
+                    <!-- cards box -->
+
+                    <div class="box-noticia">
+                        <img src="./assets/img/article-vct.png" alt="Palco campeonato vct">
+                        <h2>título da notícia</h2>
+                        <p>Lorem Ipsum is simply dummy text of the printing and typesetting industry. Lorem Ipsum has
+                            been
+                            the industry's standard dummy text ever since.</p>
+                    </div>
+
+                    <div class="box-noticia">
+                        <img src="./assets/img/article2- ssesports.png" alt="ss esports campea">
+                        <h2>título da notícia</h2>
+                        <p>Lorem Ipsum is simply dummy text of the printing and typesetting industry. Lorem Ipsum has
+                            been
+                            the industry's standard dummy text ever since.</p>
+                    </div>
+
+                    <div class="box-noticia">
+                        <img src="./assets/img/article3-loud.png" alt="loud campea">
+                        <h2>título da notícia</h2>
+                        <p>Lorem Ipsum is simply dummy text of the printing and typesetting industry. Lorem Ipsum has
+                            been
+                            the industry's standard dummy text ever since.</p>
+                    </div>
+
+                    <div class="box-noticia">
+                        <img src="./assets/img/article4 - palco-vct.png" alt="Palco campeonato vct">
+                        <h2>título da notícia</h2>
+                        <p>Lorem Ipsum is simply dummy text of the printing and typesetting industry. Lorem Ipsum has
+                            been
+                            the industry's standard dummy text ever since.</p>
+                    </div>
+
+                    <div class="box-noticia">
+                        <img src="./assets/img/article3-loud.png" alt="Palco campeonato vct">
+                        <h2>título da notícia</h2>
+                        <p>Lorem Ipsum is simply dummy text of the printing and typesetting industry. Lorem Ipsum has
+                            been
+                            the industry's standard dummy text ever since.</p>
+                    </div>
+
+                    <div class="box-noticia">
+                        <img src="./assets/img/article4 - palco-vct.png" alt="Palco campeonato vct">
+                        <h2>título da notícia</h2>
+                        <p>Lorem Ipsum is simply dummy text of the printing and typesetting industry. Lorem Ipsum has
+                            been
+                            the industry's standard dummy text ever since.</p>
+                    </div>
+
+                    <div class="box-noticia">
+                        <img src="./assets/img/article-vct.png" alt="Palco campeonato vct">
+                        <h2>título da notícia</h2>
+                        <p>Lorem Ipsum is simply dummy text of the printing and typesetting industry. Lorem Ipsum has
+                            been
+                            the industry's standard dummy text ever since.</p>
+                    </div>
+
+                    <div class="box-noticia">
+                        <img src="./assets/img/article2- ssesports.png" alt="Palco campeonato vct">
+                        <h2>título da notícia</h2>
+                        <p>Lorem Ipsum is simply dummy text of the printing and typesetting industry. Lorem Ipsum has
+                            been
+                            the industry's standard dummy text ever since.</p>
+                    </div>
+
+                </div>
+
+
+
+
+        </section>
 
     </main>
 
@@ -171,6 +256,8 @@
     <script src="./js/funcoes.js">
 
     </script>
+
+
 
 </body>
 

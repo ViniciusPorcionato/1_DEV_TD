@@ -373,10 +373,12 @@ border: 1px solid rgba(255, 255, 255, 0.6);
 
     width: 204px;
     margin-top: 40px;
+    border-color: #1B1426;
 
 }
 
 /* section killjoy */
+/* imagem killjoy */
 .imagem-killjoy{
 
 position: relative;
@@ -387,6 +389,7 @@ margin-top: 85px;
 
 }
 
+/* box linear-gradient */
 .box-20-jogos-diferentes{
 
 
@@ -406,6 +409,7 @@ margin-top: 85px;
 
 }
 
+/* icone dentro da box linear-gradient */
 .icon-controle{
 width: 97px;
 height: 97px;
@@ -414,6 +418,7 @@ margin-top: 20px;
 
 }
 
+/* titulo box linear-gradient */
 .box-20-jogos-diferentes h2{
 
     font-family: Titillium_Web;
@@ -424,6 +429,7 @@ margin-top: 20px;
 
 }
 
+/* paragrágrafo box linear-gradient */
 .box-20-jogos-diferentes p{
 
     margin-top: 19px;
@@ -438,6 +444,7 @@ margin-top: 20px;
 
 /* section 2 lol */
 
+/* imagem jinx */
 .imagem-lol{
 
     position: relative;
@@ -445,9 +452,11 @@ margin-top: 20px;
     width: 314px;
     height: 511px;
     margin-top: 85px;
+    background-repeat: no-repeat;
 
 }
 
+/* box linear-gradient */
 .box-53-professores{
 
 
@@ -467,6 +476,8 @@ margin-top: 20px;
 
 }
 
+
+/* icone dentro da box linear-gradient */
 .icon-jogador{
     width: 97px;
     height: 97px;
@@ -474,6 +485,7 @@ margin-top: 20px;
     margin-top: 20px;
 }
 
+/* titulo box linear-gradient */
 .box-53-professores h2{
 
     font-family: Titillium_Web;
@@ -484,6 +496,7 @@ margin-top: 20px;
 
 }
 
+/* paragrágrafo box linear-gradient */
 .box-53-professores p {
 
     margin-top: 19px;
@@ -492,6 +505,89 @@ margin-top: 20px;
     font-family: Quicksand;
     font-size: 13px;
     font-style: normal;
+
+}
+
+
+/* section noticias */
+
+.noticias{
+
+    width: 100%;
+    height: 3675px;
+    background-image: url(../assets/img/backgrund_notícias-\ mobile.png);
+
+
+}
+
+ .noticias h1{
+
+    font-family: Titillium_Web;
+    font-weight: 900;
+    color: white;
+    font-size: 18px;
+    text-transform: uppercase;
+    margin-bottom: 40px;
+
+}
+
+.noticias hr{
+
+border-color:  #F9AA01;
+width: 204px;
+}
+
+.noticias-flex{
+display: flex;
+flex-direction: column;
+align-items: center;
+padding-top: 50px;
+}
+
+.box-cards-noticias{
+
+    width: 100%;
+    height: 3567px;
+    display: flex;
+    justify-content: space-evenly;
+    align-items: center;
+    flex-direction: column;
+}
+
+.box-noticia{
+
+    width: 335px;
+    height: 387px;
+    background-image: linear-gradient(to right bottom, rgba(37, 26, 52, 0.34)   , rgba(5, 1, 12, 0.79));
+    border-radius: 8px;
+    backdrop-filter: blur(6px);
+    margin-top: 10px;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+
+.box-noticia h2{
+
+    font-family: Titillium_Web;
+    font-weight: bold;
+    font-size: 24px;
+    text-transform: capitalize;
+    margin-top: 30px;
+    margin-bottom: 30px;
+    align-self: flex-start;
+    margin-left: 25px;
+
+
+}
+
+.box-noticia p{
+
+    font-family: Quicksand;
+    font-size: 16px;
+    font-style: normal;
+    width: 280px;
+    height: 120px;
 
 }
 
@@ -543,4 +639,60 @@ margin-top: 20px;
 /* Tablets >=768px */
 
 /* Desktop >=1200px */
+@media screen and (min-width:1200px) {
+    
+    .layout-grid {
+        width: 100%;
+        max-width: 1200px;
 
+    }
+
+    header{
+
+        height: 140px;
+    }
+
+    header .header-top{
+
+        display: block;
+        border-bottom:  2px solid #F9AA01;
+    }
+
+
+    header .header-bottom .menu-hamburger,
+    header .header-bottom .menu-pontinhos,
+    header .header-bottom nav .phone,
+    header .header-bottom nav .email,
+    header .header-bottom nav .midias-sociais {
+        display: none;
+    }
+
+
+    header .header-bottom nav {
+        position: static;
+        width: 440px;
+        height: 50px;
+        flex-direction: row;
+        align-items: center;
+        justify-content: space-between;
+        padding-bottom: 0;
+    }   
+
+    header .header-bottom nav a{
+
+        padding: 0;
+        border: none;
+
+    }
+
+    header .header-bottom .menu-usuarios{
+
+        position: static;
+        width: 140px;
+        flex-direction: row;
+        height: auto;
+        background-color: transparent;
+        background-image: none;
+    }
+
+}
