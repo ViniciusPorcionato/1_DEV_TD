@@ -209,21 +209,27 @@ main{
 
 padding-top: 60px;
 
+
 }
 
 /* banner */
 main .banner{
 
-    background-image: url("../assets/img/banner-mobile-valorant.png");
-    height: calc(100vh - 60px);
-    width: 100%;
-    background-size: contain;
-    background-position: center;
-
-    display: flex;
-    flex-direction: column;
-    justify-content: space-between;
-    align-items: center;
+        background-image: url("../assets/img/banner-mobile-valorant.png");
+        height: calc(100vh - 60px);
+        width: 100%;
+        background-position: center;
+    
+        display: flex;
+        flex-direction: column;
+        justify-content: space-between;
+        align-items: center;
+        background-repeat: no-repeat;
+        background-size: cover;
+    
+    
+    
+ 
 
 }
 
@@ -394,13 +400,14 @@ margin-top: 85px;
 
 
     position: absolute;
-    right: 0;
+    right: -20px;
     top: 135px;
     width: 231px;
     height: 300px;
     background-image: linear-gradient(to right bottom, rgba(122, 49, 236, 0.2), rgba(47, 7, 109, 0.83));
     backdrop-filter: blur(15px);
     border-radius: 8px;
+    border: 1px solid rgba(255, 255, 255, 0.6);
 
     display: flex;
     flex-direction: column;
@@ -468,6 +475,9 @@ margin-top: 20px;
     background-image: linear-gradient(to right bottom, rgba(122, 49, 236, 0.2), rgba(47, 7, 109, 0.83));
     backdrop-filter: blur(15px);
     border-radius: 8px;
+    border: 1px solid rgba(255, 255, 255, 0.6);
+
+
 
     display: flex;
     flex-direction: column;
@@ -591,6 +601,19 @@ padding-top: 50px;
 
 }
 
+/* footer */
+
+footer{
+
+    width: 100%;
+    height: 1531px;
+    background-image: url(../assets/img/backgroung_footer.png);
+    background-repeat: no-repeat;
+
+
+
+}
+
 
 
 
@@ -647,18 +670,45 @@ padding-top: 50px;
 
     }
 
-    header{
-
+    /* header */
+    header {
         height: 140px;
+        position: static;
+        width: 100%;
     }
 
-    header .header-top{
-
+    header .header-top {
+        height: 50px;
         display: block;
-        border-bottom:  2px solid #F9AA01;
+        border-bottom: 2px solid #F9AA01;
+        font-family: Inter;
+        font-size: 14px;
+        font-weight: regular;
+    }
+
+    header .header-top .contatos {
+        display: flex;
+        justify-content: space-between;
+        align-items: center;
+        width: 450px;
+
+    }
+
+    /* divs .phone, .mail */
+    header .header-top .contatos > div {
+        display: flex;
+        gap: 10px;
+        width: 200px;
     }
 
 
+    header .header-top .midias-sociais {
+        width: 140px;
+        display: flex;
+        justify-content: space-between;
+    }
+
+    /* esconde os elementos desnecessários */
     header .header-bottom .menu-hamburger,
     header .header-bottom .menu-pontinhos,
     header .header-bottom nav .phone,
@@ -667,32 +717,59 @@ padding-top: 50px;
         display: none;
     }
 
+    header .logo {
+        width: 200px;
+        height: 40px;
+    }
+
+    header .header-bottom{
+
+        height: 90px;
+
+    }
 
     header .header-bottom nav {
         position: static;
         width: 440px;
         height: 50px;
+        padding-bottom: 0;
         flex-direction: row;
         align-items: center;
+        /* background-color: red; */
         justify-content: space-between;
-        padding-bottom: 0;
-    }   
-
-    header .header-bottom nav a{
-
-        padding: 0;
-        border: none;
-
     }
 
-    header .header-bottom .menu-usuarios{
+    header .header-bottom nav > a {
+        font-size: 14px;
+        padding: 0;
+        border: none;
+    }
 
+    header .header-bottom .menu-usuarios {
         position: static;
         width: 140px;
         flex-direction: row;
+        justify-content: space-between;
         height: auto;
         background-color: transparent;
         background-image: none;
+        padding: 0;
+    }
+
+
+
+    /* MAIN */
+    main{
+
+        padding-top: 0;
+    }
+
+    main .banner{
+
+        height: 772px;
+        background-image: url(../assets/img/Banner_background_1-desktop.png);
+        width: 100%;
+
     }
 
 }
