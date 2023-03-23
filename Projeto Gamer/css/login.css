@@ -269,9 +269,7 @@ main h1{
         linear-gradient(to right bottom, rgb(160, 160, 160, 1), rgba(255, 255, 255, 0.080)) content-box,
         /* fundo borda */
         linear-gradient(90deg, rgba(255, 255, 255, 1), rgba(255, 255, 255, .1)) border-box;
-    backdrop-filter: blur(4px);
     border-radius: 8px;
-    backdrop-filter: blur(6px);
 
 }
 

@@ -19,7 +19,7 @@
 @font-face {
     font-family: Titillium_Web;
     src: url(../assets/fonts/Titillium_Web/TitilliumWeb-Bold.ttf);
-    font-weight: bold;
+    font-weight: 700;
 }
 
 
@@ -221,19 +221,278 @@ header .menu-usuarios{
 
 /* MAIN */
 
+
+
 main{
- 
-    height:687px;
+    
+
+    height:1150px;
     width: 100%;
     padding-top: 60px;
+    background-image: url(../assets/img/banner-cadastro-mobile.png);
+    width: 100%;
+    height: 1152px;
 
+    
+    
+}
+
+main h1{
+    font-family: Titillium_Web;
+    font-weight: 900;
+    font-size: 28px;
+    text-transform: uppercase;
+}
+
+main hr{
+
+    width: 250px;
+    border-color: #F9AA01;
+}
+
+.cadastro-flex{
+
+    padding-top: 80px;
 
 }
 
 .cadastro{
     background-image: url(../assets/img/banner-cadastro-mobile.png);
     width: 100%;
-    height: 1231px;
+    height: 1152px;
+}
+
+
+
+.box-title{
+    display: flex;
+    align-items: center;
+    flex-direction: column;
+    gap: 20px;
+} 
+
+.input-flex{
+    width: 100%;
+    height: 170px;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+    align-items: center;
+    
+}
+
+
+.box-formulario{
+    display: flex;
+    flex-direction: column;
+    justify-content: space-evenly;
+    gap: 20px;
+    align-items: center;
+
+    width: 335px;
+    height: 460px;
+    border: 2px solid transparent;
+    border-image-slice: 1;
+    /* background-image: linear-gradient( to right bottom,  rgba(27, 20, 38, 0.6), rgba(60, 3, 65, 0.6)); */
+    background: linear-gradient(to right bottom,  rgba(27, 20, 38, 0.9), rgba(60, 3, 65, 0.7)) content-box, linear-gradient(90deg, rgba(255, 255, 255, 1), rgba(255, 255, 255, .1)) border-box;  
+    border-radius: 8px;
+    backdrop-filter:blur(4px);   
+}
+
+
+.line-input{
+    display: flex;
+    justify-content: space-around;
+    gap: 10px;
+    align-items: center;
+    width: 273px;
+    height: 40px;
+    border: 2px solid transparent;
+    background:
+        /* fundo */
+        linear-gradient(to right bottom, rgb(160, 160, 160, 0.9), rgba(255, 255, 255, 0.080)) padding-box,
+        /* fundo borda */
+        linear-gradient(90deg,rgba(255, 255, 255, 1), rgba(255, 255, 255, 0)) border-box;
+    border-radius: 8px;
+
+}
+
+.line-input input{
+    width: 95%;
+    height: 30px;
+    background-color: transparent;
+    border: none;
+    outline: none;
+    color: white;
+
+}
+
+.line-input input::placeholder{
+    color: white;
+    font-family: Titillium_Web; 
+    font-style: normal;
+    font-size: 16px;
+
+}
+
+.seletor-imagem{
+    
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    width: 270px;
+    height: 40px;
+}
+
+main p{
+
+    font-family: Titillium_Web ;
+    font-style: normal;
+    font-size: 10px;
+
+}
+
+input[type="file"] {
+    display: none;
+}
+
+#localizar-imagem{
+    width: 124px;
+    height: 40px;
+}
+
+#arquivo-label{
+    width: 124px;
+    height: 40px;
+    background-color: #D9D9D9;
+    border-radius: 8px;
+    color: black;
+    font-family: Titillium_Web ;
+    font-weight: 700;
+    font-size: 13px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+
+
+button{
+    font-family: Titillium_Web;
+    font-weight: bold;
+    font-size: 24px;
+    text-transform: capitalize;
+    width: 273px;
+    height: 40px;
+    background-color: #F9AA01;
+    border: none;
+    border-radius: 8px;
+
+}
+
+/***************table*************/
+
+.table{
+    padding-top: 160px;
+}
+
+.equipes-flex{
+
+    width: 100%;
+    height: 330px;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-around;
+    align-items: center;
+
+}
+
+.title-table{
+
+    width: 100%;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+
+.id{
+
+padding-left: 10px;
+width: 40%;
+
+}
+
+.nome{
+
+    margin-right: 55px;
+width: 40%;
+
+}
+
+.fotos{
+
+    width: 75%;
+}
+
+h2{
+    width: 100%;
+    font-family: Titillium_Web;
+    font-weight: 900;
+    font-size: 20px;
+    text-transform: uppercase;
+    color: #F9AA01;
+  
+}
+
+#hr-title{
+
+    width: 100%;
+    border: 2px solid #F9AA01;
+}
+
+.equipes-box{
+
+    width: 100%;
+    height: 70px;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    border: 2px solid transparent;
+    background:
+    /* fundo */
+    linear-gradient(to right bottom, rgba(27, 20, 38, 1), rgba(60, 3, 65, 0.38)) content-box,
+    /* fundo borda */
+    linear-gradient(90deg, rgba(255, 255, 255, 0.4), rgba(255, 255, 255, 0)) border-box;
+    border-radius: 8px;
+    backdrop-filter: blur(10px);
+
+}
+
+.hr-vertical{
+
+    width: 2px;
+    height: 33px;
+}
+
+.text-table{
+
+    font-family: Titillium_Web;
+    font-weight: 700;
+    text-transform: uppercase;
+    color: white;
+    font-size: 20px;
+
+}
+
+
+.text-table:first-child{
+
+    padding-left: 10px;
+}
+
+.icon-lixeira{
+
+    padding-right: 10px;
 }
 
 
