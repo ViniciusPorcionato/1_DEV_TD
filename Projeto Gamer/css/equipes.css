@@ -283,7 +283,7 @@ main hr{
     gap: 20px;
     align-items: center;
 
-    width: 335px;
+    width: 100%;
     height: 460px;
     border: 2px solid transparent;
     border-image-slice: 1;
@@ -388,6 +388,14 @@ button{
 
 .table{
     padding-top: 160px;
+}
+
+.cadastro-flex{
+
+    display: flex;
+    justify-content: center;
+    align-items: center;
+
 }
 
 .equipes-flex{
