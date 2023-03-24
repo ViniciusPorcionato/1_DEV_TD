@@ -28,13 +28,13 @@
                 </div>
 
                 <div class="midias-sociais">
-                    <a href="">
+                    <a href="https://pt-br.facebook.com/">
                         <img src="./assets/icons/icone-facebook.svg" alt="imagem link facebook empresa">
                     </a>
-                    <a href="">
+                    <a href="https://br.linkedin.com/">
                         <img src="./assets/icons/icone-linkedin.svg" alt="imagem link do linkedin da empresa">
                     </a>
-                    <a href="">
+                    <a href="https://www.instagram.com/">
                         <img src="./assets/icons/icone-instagram.svg" alt="imagem link do instagram da empresa">
                     </a>
                 </div>
@@ -54,9 +54,9 @@
                     alt="imagem logotipo gamer com um controle de video game ao centro">
 
                 <nav class="menu" id="menu">
-                    <a href="">Início</a>
-                    <a href="">Jogadores</a>
-                    <a href="">Equipes</a>
+                    <a href="./index.html">Início</a>
+                    <a href="./jogadores.html">Jogadores</a>
+                    <a href="./equipes.html">Equipes</a>
                     <a href="">Notícias</a>
 
                     <!-- visivel apenas no mobile -->
@@ -71,13 +71,13 @@
 
                     <!-- visivel apenas no mobile -->
                     <div class="midias-sociais">
-                        <a href="">
+                        <a href="https://pt-br.facebook.com/">
                             <img src="./assets/icons/icone-facebook.svg" alt="imagem link facebook empresa">
                         </a>
-                        <a href="">
+                        <a href="https://br.linkedin.com/">
                             <img src="./assets/icons/icone-linkedin.svg" alt="imagem link do linkedin da empresa">
                         </a>
-                        <a href="">
+                        <a href="https://www.instagram.com/">
                             <img src="./assets/icons/icone-instagram.svg" alt="imagem link do instagram da empresa">
                         </a>
                     </div>
@@ -90,7 +90,7 @@
 
                 <div id="menu-usuarios" class="menu-usuarios">
 
-                    <a href="">
+                    <a href="./login.html">
                         <img src="./assets/icons/icon-user.svg" alt="icone de perfil">
                     </a>
                     <a href="">
@@ -116,16 +116,20 @@
                         <h1>cadastro de jogadores</h1>
                         <hr>
                     </div>
-
+    
                     <div class="input-flex">
-
+    
                         <div class="line-input">
                             <input type="number" id="id-jogador" placeholder="Digite o Id do Jogador:">
                         </div>
-
-                        <div class="line-input">
-                            <input type="text" id="selecione-equipe" placeholder="Selecione uma equipe:">
-                        </div>
+                        
+                        <select class="line-input" >
+                            <option value="">Selecione uma Equipe:</option>
+                            <option value="">LOUD 1</option>
+                            <option value="">LOUD 2</option>
+                            <option value="">LOUD 3</option>
+                        </select>
+                        
                         <div class="line-input">
                             <input type="text" id="nome-jogador" placeholder="Digite o nome do Jogador:">
                         </div>
@@ -135,15 +139,159 @@
                         <div class="line-input">
                             <input type="password" id="senha-jogador" placeholder="Digite a Senha:">
                         </div>
-
+    
                         <button id="cadastro">Cadastrar</button>
-
+    
                        
                     </div>
                 </form>
             </div>
+    
+            <div class="table layout-grid">
+                <div class="title-table layout-grid">
+                    <h2 class="id">id</h2>
+                    <h2 class="nome">nome</h2>
+                    <h2 class="email">email</h2>
+    
+                </div>
+                <hr class="layout-grid" id="hr-title">
+    
+                <div class="equipes-flex">
+    
+                    <div class="equipes-box ">
+                        <p class="text-table">1</p>
+                        <hr class="hr-vertical">
+                        <p class="text-table">joão</p>
+                        <hr class="hr-vertical">
+                        <p class="p-email">joão@gmail.com</p>   
+                        <hr class="hr-vertical">
+                        <img class="icon-lixeira" src="./assets/icons/icon-lixeira.svg" alt="">
+                    </div>
+    
+                    <div class="equipes-box ">
+                        <p class="text-table">1</p>
+                        <hr class="hr-vertical">
+                        <p class="text-table">joão</p>
+                        <hr class="hr-vertical">
+                        <p class="p-email">joão@gmail.com</p>
+                        <hr class="hr-vertical">
+                        <img class="icon-lixeira" src="./assets/icons/icon-lixeira.svg" alt="">
+                    </div>
+    
+                    <div class="equipes-box ">
+                        <p class="text-table">1</p>
+                        <hr class="hr-vertical">
+                        <p class="text-table">joão</p>
+                        <hr class="hr-vertical">
+                        <p class="p-email">joão@gmail.com</p>
+                        <hr class="hr-vertical">
+                        <img class="icon-lixeira" src="./assets/icons/icon-lixeira.svg" alt="">
+                    </div>
+    
+                    <div class="equipes-box ">
+                        <p class="text-table">1</p>
+                        <hr class="hr-vertical">
+                        <p class="text-table">joão</p>
+                        <hr class="hr-vertical">
+                        <p class="p-email">joão@gmail.com</p>
+                        <hr class="hr-vertical">
+                        <img class="icon-lixeira" src="./assets/icons/icon-lixeira.svg" alt="">
+                    </div>
+                </div>
+    
+            </div>
         </section>
     </main>
+
+
+     <!-- footer -->
+     <footer class="footer">
+        <div class="footer-gradient"></div>
+        <div class="layout-grid footer-flex">
+            <div class="footer-inicio">
+                <img class="logo" src="./assets/img/logotipo-gamer.svg" alt="Ícone gamer">
+                <p>Nosso sucesso na criação de soluções de negócios se deve em grande parte a nossa equipe talentosa e
+                    altamente comprometida.</p>
+            </div>
+            <div class="redes-sociais">
+                <a class="rede-social-box" href="">
+                    <img src="./assets/icons/icon-facebook-black.svg" alt="">
+                </a>
+                <a class="rede-social-box" href="">
+                    <img src="./assets/icons/icon-linkedin-black.svg" alt="">
+                </a>
+                <a class="rede-social-box" href="">
+                    <img src="./assets/icons/icon-instagram-black.svg" alt="">
+                </a>
+            </div>
+            <div class="links-uteis">
+                <div class="footer-titulo">
+                    <h2>Links Úteis</h2>
+                    <hr>
+                </div>
+                <div class="links">
+                    <a class="link">
+                        <hr>
+                        <p>Início</p>
+                    </a>
+                    <a class="link">
+                        <hr>
+                        <p>Jogadores</p>
+                    </a>
+                    <a class="link">
+                        <hr>
+                        <p>Notícias</p>
+                    </a>
+                    <a class="link">
+                        <hr>
+                        <p>Login</p>
+                    </a>
+                    <a class="link">
+                        <hr>
+                        <p>Equipes</p>
+                    </a>
+                </div>
+            </div>
+            <div class="contatos">
+                <div class="footer-titulo">
+                    <h2>Contatos</h2>
+                    <hr>
+                </div>
+                <div class="contato">
+                    <p class="contato-topico">Localização:</p>
+                    <p class="contato-descricao">Rua Niterói, 180 - São Caetano do Sul - SP</p>
+                    <p class="contato-topico">Junte-se a nós:</p>
+                    <p class="contato-descricao">contato@gamer.com.br</p>
+                    <p class="contato-topico">Telefone:</p>
+                    <p class="contato-descricao">(11) 0900-1010</p>
+                </div>
+            </div>
+            <div class="newsletter">
+                <div class="footer-titulo">
+                    <h2>Newsletter</h2>
+                    <hr>
+                </div>
+                <form action="" class="newsletter-form">
+                    <input class="email-input" type="email" placeholder="Digite seu e-mail:">
+                    <button class="send-button">Enviar</button>
+                </form>
+            </div>
+            <p class="copyright-text">©Copyright2023-GamerJogosDigitais</p>
+        </div>
+    </footer>
+
+
+
+
+
+
+
+
+ <!-- funcionalidade das barras no monile -->
+ <script src="./js/funcoes.js">
+
+ </script>
+
 
 </body>
 </html>
