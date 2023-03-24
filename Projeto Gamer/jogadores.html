@@ -1,0 +1,149 @@
+<!DOCTYPE html>
+<html lang="pt-BR">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Cadastro de Jogadores</title>
+    <link rel="stylesheet" href="./css/jogadores.css">
+</head>
+
+<body>
+    <header>
+        <!-- Parte de cima do header -->
+        <div class="header-top">
+
+            <div class="layout-grid alinhamento-between-center">
+
+                <div class="contatos">
+
+                    <div class="phone">
+                        <img src="./assets/icons/icone_telefone.svg" alt="icone de telefone de contato">
+                        <p>(11) 0900-1010</p>
+                    </div>
+                    <div class="email">
+                        <img src="./assets/icons/icone_email.svg" alt="icone de email de contato">
+                        <p>contato@gamer.com.br</p>
+                    </div>
+                </div>
+
+                <div class="midias-sociais">
+                    <a href="">
+                        <img src="./assets/icons/icone-facebook.svg" alt="imagem link facebook empresa">
+                    </a>
+                    <a href="">
+                        <img src="./assets/icons/icone-linkedin.svg" alt="imagem link do linkedin da empresa">
+                    </a>
+                    <a href="">
+                        <img src="./assets/icons/icone-instagram.svg" alt="imagem link do instagram da empresa">
+                    </a>
+                </div>
+            </div>
+        </div>
+
+        <!-- Parte de baixo do header -->
+        <div class="header-bottom">
+
+            <div class="layout-grid alinhamento-between-center">
+
+                <!-- Menu hamburger. Visivel apenas no smartphone -->
+                <img class="menu-hamburger" onclick="mostrarMenu()" src="./assets/icons/icon-hamburger-menu.svg"
+                    alt="icone de barras. Abre e fecha o menu principal, no celular">
+
+                <img class="logo" src="./assets/img/logotipo-gamer.svg"
+                    alt="imagem logotipo gamer com um controle de video game ao centro">
+
+                <nav class="menu" id="menu">
+                    <a href="">Início</a>
+                    <a href="">Jogadores</a>
+                    <a href="">Equipes</a>
+                    <a href="">Notícias</a>
+
+                    <!-- visivel apenas no mobile -->
+                    <a class="phone">
+                        <img src="./assets/icons/icone_telefone.svg" alt="icone de telefone de contato">
+                        <p>(11) 0900-1010</p>
+                    </a>
+                    <a class="email">
+                        <img src="./assets/icons/icone_email.svg" alt="icone de email de contato">
+                        <p>contato@gamer.com.br</p>
+                    </a>
+
+                    <!-- visivel apenas no mobile -->
+                    <div class="midias-sociais">
+                        <a href="">
+                            <img src="./assets/icons/icone-facebook.svg" alt="imagem link facebook empresa">
+                        </a>
+                        <a href="">
+                            <img src="./assets/icons/icone-linkedin.svg" alt="imagem link do linkedin da empresa">
+                        </a>
+                        <a href="">
+                            <img src="./assets/icons/icone-instagram.svg" alt="imagem link do instagram da empresa">
+                        </a>
+                    </div>
+
+                </nav>
+
+                <!-- Menu points, visível apenas no smartphone -->
+                <img class="menu-pontinhos" onclick="mostrarMenuUsuarios()" src="./assets/icons/icon-points.svg"
+                    alt="icone de três pontos. Abre e fecha o menu usuários, no celular">
+
+                <div id="menu-usuarios" class="menu-usuarios">
+
+                    <a href="">
+                        <img src="./assets/icons/icon-user.svg" alt="icone de perfil">
+                    </a>
+                    <a href="">
+                        <img src="./assets/icons/icon-bag.svg" alt="icone de bag">
+                    </a>
+                    <a href="">
+                        <img src="./assets/icons/icon-search.svg" alt="icone de lupa/search">
+                    </a>
+
+                </div>
+            </div>
+
+
+        </div>
+
+    </header>
+
+    <main>
+        <section>
+            <div class="layout-grid cadastro-flex">
+                <form class="box-formulario" action="">
+                    <div class="box-title">
+                        <h1>cadastro de jogadores</h1>
+                        <hr>
+                    </div>
+
+                    <div class="input-flex">
+
+                        <div class="line-input">
+                            <input type="number" id="id-jogador" placeholder="Digite o Id do Jogador:">
+                        </div>
+
+                        <div class="line-input">
+                            <input type="text" id="selecione-equipe" placeholder="Selecione uma equipe:">
+                        </div>
+                        <div class="line-input">
+                            <input type="text" id="nome-jogador" placeholder="Digite o nome do Jogador:">
+                        </div>
+                        <div class="line-input">
+                            <input type="email" id="email-jogador" placeholder="Digite o Email do Jogador:">
+                        </div>
+                        <div class="line-input">
+                            <input type="password" id="senha-jogador" placeholder="Digite a Senha:">
+                        </div>
+
+                        <button id="cadastro">Cadastrar</button>
+
+                       
+                    </div>
+                </form>
+            </div>
+        </section>
+    </main>
+
+</body>
+</html>
