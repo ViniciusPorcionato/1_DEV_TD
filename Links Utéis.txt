@@ -1,0 +1,22 @@
+Links Utéis sobre CSS E HTML
+
+https://code.tutsplus.com/pt/tutorials/the-30-css-selectors-you-must-memorize--net-16048
+https://www.maujor.com/tutorial/propriedade-css-para-estilizacao-de-background.php
+
+
+- Design
+   [ Dribbble ] -  https://dribbble.com/
+   [ Pinterest ] - https://br.pinterest.com/
+   [ Pixabay ] - https://pixabay.com/pt/
+   [ Unsplash ] - https://unsplash.com/pt-br
+   [ Adobe Color] - https://color.adobe.com/pt/create/color-wheel
+
+- Versionamento
+   [ Curso de Git ] - https://www.udemy.com/course/git-e-github-para-iniciantes/?src=sac&kw=git+e+github+para+iniciante
+   [ Documentação Git ] - https://git-scm.com/
+
+- Front-End (HTML e CSS)
+   [ w3schools ] - https://www.w3schools.com/html/
+   [ MDN ] - https://developer.mozilla.org/pt-BR/docs/Learn/HTML
+   [ DevMedia ] - https://www.devmedia.com.br/html/
+   [ Flexbox Froggy ] - https://flexboxfroggy.com/
